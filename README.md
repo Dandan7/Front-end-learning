@@ -1,8 +1,13 @@
 # Front-end-learning
-1 resume.html为第一天学习的简历代码
+第一天学习的简历代码
 <br>
- https://hubert932.github.io/Front-end-learning/1resume.html
+ https://hubert932.github.io/Front-end-learning/Day1/1resume.html
 <br>
-resume.html为第5,6天的三个简历代码
+第5,6天的三个简历代码
 <br>
-https://hubert932.github.io/Front-end-learning/resume.html
+https://hubert932.github.io/Front-end-learning/Day5-6/resume1.html
+<br>
+https://hubert932.github.io/Front-end-learning/Day5-6/resume2.html
+<br>
+https://hubert932.github.io/Front-end-learning/Day5-6/resume3.html
+<br>
