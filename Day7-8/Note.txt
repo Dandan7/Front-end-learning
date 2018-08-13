@@ -1,1 +1,5 @@
-#CSS布局<br>
+CS布局
+1.position:static,static为默认，固定在某个位置
+2.position：relative，两个布局之间存在位置关系
+3.position:fixed,位置固定，随着页面滚动而停在相同位置
+4.position：absolute，随着父元素position：relative固定
