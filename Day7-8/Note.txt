@@ -1,0 +1,14 @@
+http://ife.baidu.com/course/detail/id/42
+
+CS布局
+http://zh.learnlayout.com/
+
+1.position:static,static为默认，固定在某个位置
+2.position：relative，两个布局之间存在位置关系
+3.position:fixed,位置固定，随着页面滚动而停在相同位置
+4.position：absolute，随着父元素position：relative固定
+
+5.float，用于文字环绕图片
+6.inline-block，用块空间铺满页面
+
+7.flexbox,目前只支持在Chrome
