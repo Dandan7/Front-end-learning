@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <style>
+        .container {
+            display: -webkit-flex;
+            display: flex;
+        }
+        
+        .none {
+            -webkit-flex: none;
+            flex: none;
+            background-color: aqua;
+            height: 300px;
+            width: 200px;
+        }
+        
+        .flex1 {
+            -webkit-flex: 1;
+            flex: 1;
+            background-color: brown;
+        }
+        
+        .flex2 {
+            -webkit-flex: 2;
+            flex: 2;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="none">
+            static
+        </div>
+        <div class="flex1">
+            change
+        </div>
+    </div>
+    <div class="container">
+        <div class="flex2">
+            change
+        </div>
+        <div class="none">
+            static
+        </div>
+
+    </div>
+
+</body>
+
+</html>
