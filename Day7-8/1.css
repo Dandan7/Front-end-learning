@@ -1,10 +1,15 @@
-.top {
+header {
     width: 100%;
     background-color: black;
+    min-width:960px;
     height: 150px;
 }
 
-.title {
+.logo{
+  
+}
+
+.top {
     width: 1000px;
     text-align: center;
     color: white;
@@ -152,18 +157,6 @@
     z-index: 1;
 }
 
-.flex1 {
-    -webkit-flex: 1;
-    flex: 1;
-    background-color: brown;
-}
-
-.flex2 {
-    -webkit-flex: 2;
-    flex: 2;
-    background-color: yellowgreen;
-}
-
 .footer {
     background-color: grey;
     color: white;
@@ -172,8 +165,4 @@
     margin-top: 30px;
     font-size: 14px;
     height: 80px;
-}
-
-.hr {
-    width: 100px;
 }
