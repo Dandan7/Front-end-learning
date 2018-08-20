@@ -13,5 +13,5 @@ https://hubert932.github.io/Front-end-learning/Day5-6/resume3.html
 <br>
 第7,8天的网站
 <br>
-https://hubert932.github.io/Front-end-learning/Day7-8/layout.html
+https://hubert932.github.io/Front-end-learning/Day7-8/task.html
 <br>
