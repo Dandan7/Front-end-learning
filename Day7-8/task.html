@@ -1,148 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
-  <title>Document</title>
     <link rel="stylesheet" href="1.css" type="text/css" />
     <script type="text/javascript" src="1.js"></script>
 </head>
 
-<header>
-    <div class="top">
-      <div class="logo">
-        Logo
-        </div>
-        <div class="link">
-            <a href="#">Github</a>
-            <a href="#">Register</a>
-            <a href="#">Login</a>
+<body>
+    <!-- 设计稿描述：
+    设计稿分为头部，中间的Banner，主导航，内容区域，底部
+    头部区域为100%宽的一个深色背景，头部中间有一块960px的定宽居中区域，里面包括了左边的Logo和右上角导航
+    Banner为100%宽的区块，中间右下方有banner轮显的当前图片数字的示例，其中正在显示的图片对应的数字有特殊样式（注意不需要实现轮显banner的业务逻辑，只是按照设计稿做静态样式）
+    主导航区域，有一个100%宽的灰色线条，线条之上，在中间960px区域是导航菜单，当前正在浏览页对应的菜单有特殊样式
+    主要内容区域，宽度为960px，里面每个内容都有至少80px的padding，每一个内容的宽度均为自适应，可以使用flex布局 -->
+    <div class="header">
+        <div class="center">
+            <ul class="link">
+                <li><a href="#">Github</a></li>
+                <li> <a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+            <h2> Logo </h2>
         </div>
     </div>
-</header>
-
-<body>
-
-    <section class="banner">
-
-        <div class="panels">
-            <article class="active-panel">
-                <h2>The first tab</h2>
-
-                <p>Lol.</p>
-            </article>
-
-            <article>
-                <h2>The second tab</h2>
-
-                <p>all the same.</p>
-            </article>
-
-            <article>
-                <h2>The third tab</h2>
-
-                <p> how exciting!</p>
-
-                <ol>
-                    <li> at sem.</li>
-                    <li>Aliquam .</li>
-                    <li>Nulla facilisi</li>
-                </ol>
-            </article>
-        </div>
-        <ul>
-            <li>
-                <a href="#" class="active">1</a>
-            </li>
-            <li>
-                <a href="#">2</a>
-            </li>
-            <li>
-                <a href="#">3</a>
-            </li>
-            <li>
-                <a href="#">4</a>
-            </li>
-        </ul>
-    </section>
-
-    <section class="navi">
-        <ul>
-            <li>
-                <a href="#" class="active">HOME</a>
-            </li>
-            <li>
-                <a href="#">PROFILE</a>
-            </li>
-            <li>
-                <a href="#">ABOUT</a>
-            </li>
-        </ul>
-        <br></br>
-        <hr></hr>
-        <div class="content">
-            <div class="box box1 ">
-
-                <h2>Content1</h2>
-
+    <div class="banner">
+        <div class="back">
+            <div class="tab">
+                <ul class="active-tab">
+                    <li> <a href="#" class="active">1</a> </li>
+                    <li> <a href="#">2</a> </li>
+                    <li> <a href="#">3</a> </li>
+                    <li> <a href="#">4</a> </li>
+                </ul>
             </div>
-            <div class="box box1 ">
-
+        </div>
+    </div>
+    <div class="navi">
+        <ul>
+            <li> <a href="#" class="active">HOME</a> </li>
+            <li> <a href="#">PROFILE</a> </li>
+            <li> <a href="#">ABOUT</a> </li>
+        </ul>
+    </div>
+    <div class="line"></div>
+    <div class="content">
+        <ul>
+            <li>         <p>Content1</p>
+            </li>
+            <li>
                 <h2>Content2</h2>
-
-            </div>
-            <div class="box box1 ">
-
+            </li>
+            <li>
                 <h2>Content3</h2>
-
-            </div>
-        </div>
-
-        <div class="content">
-            <div class="box box2 ">
-
-                <p>Content4</p>
-
-            </div>
-            <div class="box box2 ">
-
-                <p>Content5</p>
-
-            </div>
-            <div class="box box2 ">
-
-                <p>Content6</p>
-
-            </div>
-            <div class="box box2 ">
-
-                <p>Content7</p>
-
-            </div>
-        </div>
-        <div class="content">
-            <div class="box box1 ">
-
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <ul>
+            <li>
+                <h2>Content4</h2>
+            </li>
+            <li>
+                <h2>Content5</h2>
+            </li>
+            <li>
+                <h2>Content6</h2>
+            </li>
+            <li>
+                <h2>Content7</h2>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <ul>
+            <li>
                 <h2>Content8</h2>
-
-            </div>
-            <div class="box box1 ">
-
+            </li>
+            <li>
                 <h2>Content9</h2>
-
-            </div>
-            <div class="box box1 ">
-
+            </li>
+            <li>
                 <h2>Content10</h2>
-
-            </div>
-        </div>
-    </section>
-
+            </li>
+        </ul>
+    </div>
     <div class="footer">
         2018 ife.baidu.com
     </div>
-
 </body>
 
 </html>
