@@ -1,320 +1,479 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
-html {
-    height: 100%;
+.hd {
+    width: 100%;
+    height: 990px;
+    background-image: url('images/header/1.png');
+    position: relative;
 }
 
-body {
-    height: 100%;
+header .title {
+    font-size: 62px;
+    width: 100%;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 210px;
+}
+
+header .text p {
+    text-align: center;
+    padding: 0 300px 0 300px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgba(255, 255, 255, 0.702);
+    text-align: center;
+    position: absolute;
+    top: 345px;
+}
+
+.box {
+    width: 970px;
+    height: 250px;
+    position: absolute;
+    border: rgb(119, 113, 113) 1px solid;
+    top: 530px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.box .message {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 45px;
+}
+
+.box .message p:last-child {
+    font-size: 12px;
+    color: rgba(220, 220, 220, 0.664);
+    margin: 15px 0;
+}
+
+.box form {
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
     text-align: center;
 }
 
-header {
-    /* Firefox */
-    display: -moz-box;
-    -moz-box-pack: center;
-    -moz-box-align: center;
-    /* Safari, Chrome, and Opera */
-    display: -webkit-box;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    /* W3C */
-    display: box;
-    box-pack: center;
-    box-align: center;
-    color: #ffffff;
-    height: 550px;
-    background-size: 100% 100%;
-    background-image: url(images/header/1.jpg);
-    background-repeat: none;
-    -webkit-filter: opacity(55%);
-    filter: opacity(55%);
-}
-
-header .all p {
-    width: 700px;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-header .all .con {
-    width: 960px;
-    border: 1px solid #c0c0c0;
-}
-
-header .all .con .text {
-    text-align: center;
-}
-
-header .all .con .boxes {
-    display: -webkit-flex;
-    display: flex;
-    margin: 30px 50px 30px 50px;
-}
-
-header .all .con .boxes input {
-    height: 30px;
-    padding: 10px;
-    border: 1px solid #c0c0c0;
-    -webkit-flex: 2;
-    flex: 2;
-    background-color: transparent;
-    color: #ffffff;
-    margin-right: 30px;
-}
-
-header .all .con .boxes form {
-    margin-left: -30px;
-    -webkit-flex: 1;
-    flex: 1;
-}
-
-header .all .con .boxes form input {
+.box form input {
+    width: 290px;
     height: 50px;
-    text-align: center;
-    background-color: #ffffff;
-    color: #000000;
+    margin: 10px;
+    border: rgb(119, 113, 113) 1px solid;
+    background-color: transparent;
+}
+
+.box form input:last-child {
+    width: 125px;
+    height: 50px;
+    font-weight: bold;
+    background-color: white;
+    border: rgb(119, 113, 113) 1px solid;
 }
 
 .part1 {
-    width: 960px;
-    margin: 0 auto;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.part1 .content1 {}
-
-.part1 .content1 h1 {
-    width: 600px;
-}
-
-.part1 .content2 {
     width: 100%;
-    display: -webkit-flex;
-    -webkit-flex-wrap: wrap;
+    height: 710px;
+}
+
+.part1 div {
+    width: 100%;
+    font-family: "Montserrat";
+    color: black;
+    text-align: center;
+}
+
+.part1 div p {
+    margin: 45px 0 25px 0;
+}
+
+.part1 div p small {
+    font-size: 14px;
+}
+
+.part1 div p big {
+    font-size: 42px;
+    font-weight: lighter;
+}
+
+.part1 .content {
+    width: 970px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
 }
 
-.part1 .content2 li {
-    list-style-type: none;
-    width: 450px;
-    margin: 10px;
+.part1 .content div {
+    width: 400px;
     text-align: left;
+    display: flex;
+    align-items: flex-start;
+    margin: 45px 0;
 }
 
-.part1 .content2 li img {
-    float: left;
-    margin: 15px 15px;
+.part1 .content div section {
+    margin-left: 35px;
+    position: relative;
+    top: -5px;
+}
+
+.part1 .content div section p {
+    margin: 0;
+}
+
+.part1 .content div section p:first-child {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.part1 .content div section p:last-child {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: lighter;
 }
 
 .part2 {
-    color: #ffffff;
-    text-align: center;
     width: 100%;
-    height: 450px;
-    min-width: 960px;
-    background-size: 100% 100%;
-    background-image: url(images/part2/1.jpg);
-    background-repeat: none;
+    height: 800px;
+    background-image: url('images/part2/1.png');
 }
 
-.part2 .left {
-    float: left;
-    width: 600px;
+.part2 .content {
+    width: 820px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
 }
 
-.part2 .left .text .boxes {
-    display: -webkit-flex;
+.content div:first-child {
+    width: 390px;
+}
+
+.content div section p:first-child {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.content div section p:last-child {
+    width: 370px;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.content div:last-child {
+    width: 550px;
     display: flex;
-    margin: 30px 50px 30px 50px;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
 }
 
-.part2 .left .text .boxes form {
-    -webkit-flex: 1;
-    flex: 1;
-}
-
-.part2 .left .text .boxes form input {
-    height: 50px;
-    text-align: center;
+.content div button {
+    width: 250px;
+    height: 60px;
+    color: white;
     background-color: transparent;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-}
-
-.part2 .right {
-    height: 300px;
-    width: 400px;
+    border: 1px solid grey;
 }
 
 .part3 {
-    position: relative;
-    width: 960px;
-    height: 380px;
-    margin-top: 10px;
-    display: inline-block;
-}
-
-.part3 ul {
-    text-align: center;
-    padding: 30px;
-    margin-top: 30px;
-    font-size: 14px;
-    list-style-type: none;
     width: 100%;
-    height: 100%;
-    display: -webkit-flex;
-    display: flex;
+    height: 480px;
+    text-align: center;
+    border-bottom: rgb(238, 235, 235) 1px solid;
 }
 
-.part3 ul li {
-    list-style-type: none;
-    margin: 30px 30px 30px 30px;
-    text-decoration: none;
-    -webkit-flex: 1;
-    flex: 1;
+.part3 div {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.part3 h1 {
+    font-size: 42px;
+    font-family: "Montserrat";
+    margin: 80px 0 80px 0;
+    font-weight: lighter;
+}
+
+.part3 div div {
+    width: 250px;
+    display: block;
+}
+
+.part3 div div p {
+    font-size: 16px;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 40px;
 }
 
 .part4 {
-    width: 960px;
-    text-align: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.part4 div {
+    width: 72%;
+    height: 90%;
     margin: 0 auto;
-}
-
-.part4 ul {
-    display: -webkit-flex;
-    -webkit-flex-wrap: wrap;
+    position: relative;
+    top: 25px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.part4 li img {
-    margin: 10px 30px 10px 10px;
-    height: 250px;
-    width: 400px;
+.part4 div div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.part4 li {
-    list-style-type: none;
-    margin: 10px 30px 10px 10px;
-    width: 250px;
+.part4 div div section {
+    width: 310px;
+}
+
+.part4 div div section h1 {
+    font-size: 20px;
+}
+
+.part4 div div section p {
+    margin-top: 30px;
 }
 
 .part5 {
-    width: 960px;
+    width: 100%;
+    height: 1000px;
     text-align: center;
+    border-bottom: rgb(238, 235, 235) 1px solid;
+}
+
+.part5 section {
+    width: 700px;
     margin: 0 auto;
 }
 
-.part5 ul {
-    display: -webkit-flex;
-    -webkit-flex-wrap: wrap;
-    display: flex;
-    flex-wrap: wrap;
+.part5 section h1 {
+    margin: 80px 0 32px 0;
+    font-size: 42px;
+    font-weight: lighter;
 }
 
-.part5 li img {
-    margin: 10px 30px 10px 10px;
-    height: 250px;
-    width: 400px;
+.part5 section p {
+    margin: 0px 0 50px 0;
+    font-size: 16px;
+    font-weight: lighter;
 }
 
-.part5 li {
-    list-style-type: none;
-    margin: 10px 30px 10px 10px;
-    width: 250px;
+.part5 div {
+    width: 970px;
+    height: 680px;
+    margin: 0 auto;
 }
 
-.part5 .photo a img {
-    width: 400px;
-    height: 350px;
-    opacity: 1.0;
-    filter: alpha(opacity=100);
+.part5 div div {
+    width: 440px;
+    height: 310px;
+    position: relative;
+    float: left;
+    margin: 15px;
 }
 
-.part5 .crew {
-    display: none;
+.part5 div div div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 440px;
+    height: 310px;
 }
 
-.part5 .crew a img {
-    width: 50px;
-    height: 50px;
+.part5 div div div img {
+    opacity: 0;
 }
 
-.part5 .photo a img :hover {
-    /*可视化反馈*/
-    opacity: 0.4;
-    filter: alpha(opacity=40);
+.part5 div div img {
+    width: 440px;
+    height: 310px;
+    padding: 0;
 }
 
-.part5 li a.active {
-    background-color: white;
-    font-weight: bold;
-    border-bottom: white;
+.part5 div div div img:hover {
+    opacity: 1;
 }
 
 .part6 {
-    border-top: 1px solid grey;
-    width: 960px;
-    height: 350px;
-    display: -webkit-flex;
+    width: 100%;
+    height: 700px;
+}
+
+.part6 div {
+    width: 970px;
     display: flex;
-    flex: center;
-}
-
-.part6 .left {
-    border: 1px solid grey;
-    margin: 30px 30px 30px 30px;
-    text-decoration: none;
-    -webkit-flex: 1;
-    flex: 1;
-}
-
-.part6 .left .box {
-    border: 1px solid grey;
-}
-
-.part6 .left .box form {
-    text-align: center;
-    font-size: 10px;
-    background: #000000;
-    color: #ffffff;
-}
-
-.part6 .right l {
-    text-decoration: none;
-}
-
-.part6 .right li img {
-    float: left;
-}
-
-footer ul {
-    background-color: #000000;
-    color: white;
-    padding: 30px;
-    margin-top: 30px;
-    font-size: 14px;
-    height: 280px;
+    margin: 0 auto;
     position: relative;
-    display: -webkit-flex;
+    top: 50px;
+}
+
+.part6 div .box {
+    position: static;
+    width: 470px;
+    height: 570px;
+    text-align: center;
+    border: rgb(238, 235, 235) 1px solid;
     display: flex;
+    flex-direction: column;
 }
 
-footer ul li {
-    list-style-type: none;
-    margin: 30px 30px 30px 30px;
-    text-decoration: none;
-    -webkit-flex: 1;
-    flex: 1;
+.part6 div .box h1 {
+    font-size: 16px;
+    margin: 50px 0 35px 0;
+    font-weight: bold;
 }
 
-a {
+.part6 div .box form input {
+    width: 370px;
+    height: 50px;
+    border: rgb(238, 235, 235) 1px solid;
+    margin: 15px 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.part6 div .box form input:nth-last-child(2) {
+    width: 370px;
+    height: 145px;
+}
+
+.part6 div .box form input:last-child {
+    background-color: black;
     color: white;
-    text-decoration: none;
+}
+
+.part6 div .content {
+    position: static;
+    width: 470px;
+    height: 570px;
+}
+
+.part6 div .content h1 {
+    font-size: 42px;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+
+.part6 div .content p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.part6 div .content div {
+    width: 360px;
+    height: 360px;
+    left: 55px;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.part6 div .content div div {
+    position: static;
+    width: 100%;
+    margin: 30px 0;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.part6 div .content div div p {
+    padding: 0 8px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ft {
+    width: 100%;
+    height: 410px;
+    background-color: black;
+}
+
+.ft div {
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 80px;
+}
+
+.ft div div {
+    position: static;
+}
+
+.ft div div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ft div div ul li {
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 25px 0;
+}
+
+.ft div div ul li:first-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.signli {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+.signp {
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 25px 0;
+}
+
+.ft div div:last-child {
+    position: static;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ft div div:last-child div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    width: 100%;
+}
+
+.ft div div:last-child div a img {
+    margin: 15px;
 }
