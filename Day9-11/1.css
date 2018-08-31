@@ -8,7 +8,13 @@
     background-image: url('images/header/1.png');
     position: relative;
 }
+<<<<<<< HEAD
 
+=======
+ a.hand:hover   {
+     cursor:hand
+}   
+>>>>>>> 1f0b8e21327528e9bc0bdc7eb80b9e9a4afe83a1
 header .title {
     font-size: 62px;
     width: 100%;
@@ -381,6 +387,7 @@ header .text p {
     font-size: 42px;
     font-weight: lighter;
     margin: 20px 0;
+<<<<<<< HEAD
 }
 
 .part6 div .content p {
@@ -396,6 +403,23 @@ header .text p {
     flex-direction: column;
 }
 
+=======
+}
+
+.part6 div .content p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.part6 div .content div {
+    width: 360px;
+    height: 360px;
+    left: 55px;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+>>>>>>> 1f0b8e21327528e9bc0bdc7eb80b9e9a4afe83a1
 .part6 div .content div div {
     position: static;
     width: 100%;
@@ -425,12 +449,21 @@ header .text p {
     position: relative;
     justify-content: space-between;
     top: 80px;
+<<<<<<< HEAD
 }
 
 .ft div div {
     position: static;
 }
 
+=======
+}
+
+.ft div div {
+    position: static;
+}
+
+>>>>>>> 1f0b8e21327528e9bc0bdc7eb80b9e9a4afe83a1
 .ft div div ul {
     list-style-type: none;
     padding: 0;
@@ -476,4 +509,8 @@ header .text p {
 
 .ft div div:last-child div a img {
     margin: 15px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1f0b8e21327528e9bc0bdc7eb80b9e9a4afe83a1
